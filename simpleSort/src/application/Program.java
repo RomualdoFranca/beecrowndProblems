@@ -1,6 +1,8 @@
 package application;
 
 
+import entities.SimpleSort;
+
 import java.util.Scanner;
 
 /*
@@ -17,7 +19,12 @@ public class Program {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
+        System.out.println("Digite 3 numeros inteiros");
+//        int num1 = sc.nextInt();
+//        int num2 = sc.nextInt();
+//        int num3 = sc.nextInt();
+        SimpleSort simpleSort = new SimpleSort(3, 2, 1);
+        System.out.println(simpleSort.sortingNumbers());
         sc.close();
     }
 }

@@ -29,5 +29,10 @@ public class SimpleSort {
     public void setNum3(int num3) {
         this.num3 = num3;
     }
+    public String sortingNumbers() {
+        if (getNum1() > getNum2())
+            return "Na ordem crescente:" + getNum1();
+        return null;
+    }
 
 }
