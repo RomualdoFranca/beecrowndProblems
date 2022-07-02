@@ -25,4 +25,21 @@ public class CoordinatesOfAPoint {
     public void setPointY(double pointY) {
         this.pointY = pointY;
     }
+    public void setQuadrant(String quadrant) {
+        this.quadrant = quadrant;
+    }
+    public String quadrant() {
+        if (getPointX() > 0 && getPointY() > 0) {
+            return "The plane is Quadrant 1";
+        }
+        else if (getPointX() < 0 && getPointY() > 0) {
+            return "The plane is Quadrant 2";
+        }
+        else if (getPointX() < 0 && getPointY() < 0) {
+            return "The plane is Quadrant 3";
+        }
+        else if (getPointX() > 0 && getPointY() > 0) {
+            return "The plane is Quadrant 4";
+        } return "Origin";
+    }
 }
