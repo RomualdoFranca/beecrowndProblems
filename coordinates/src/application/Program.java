@@ -13,6 +13,11 @@ import java.util.Scanner;
     Output
     The output should display the quadrant in which the point is.
 */
+/*  Elaborar um jogo tipo batalha naval
+    Definir o tamanho da area de batalha (o tamanho do plano cartesiano)
+*   Definir a coordenada onde o navio se encontra
+*   Informar a localização dos tiros efetuados
+    ex: O tiro efetuado foi a esquerda do alvo, na diagonal inferior esquerda etc*/
 public class Program {
     public static void main(String[] args) {
 
